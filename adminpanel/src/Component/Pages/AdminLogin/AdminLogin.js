@@ -1,4 +1,5 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
 
 const AdminLogin = () => {
   return (
@@ -28,7 +29,7 @@ const AdminLogin = () => {
                     <a href="#" className="forgot-pass">Forgot password</a>
                   </div>
                   <div className="text-center">
-                    <button type="submit" className="btn btn-primary btn-block enter-btn">Login</button>
+                    <button type="submit" className="btn btn-primary btn-block enter-btn text-light"><NavLink className='text-light' to='/dashboard'>Login</NavLink> </button>
                   </div>
                   <div className="d-flex">
                     <button className="btn btn-facebook mr-2 col">

@@ -1,9 +1,10 @@
 import React from 'react'
+import SideNavBar from '../../Sherd/SideNavBar/SideNavBar'
 
 const Charts = () => {
   return (
 <>
-
+    <SideNavBar/>
     <div className="container-scroller">
 
       <div className="container-fluid page-body-wrapper">

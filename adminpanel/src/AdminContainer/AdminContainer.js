@@ -5,7 +5,7 @@ import SideNavBar from '../Component/Sherd/SideNavBar/SideNavBar'
 const AdminContainer = () => {
   return (
 <>
-<SideNavBar />
+{/* <SideNavBar />  */}
 <Outlet/>
 </>  )
 }
